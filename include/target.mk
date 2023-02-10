@@ -59,7 +59,18 @@ DEFAULT_PACKAGES.router:=\
 	kmod-nft-offload \
 	ipv6helper \
 	ppp \
-	ppp-mod-pppoe
+	ppp-mod-pppoe \
+	kmod-usb-core kmod-usb-net kmod-usb-net-cdc-ether \
+	kmod-usb-net-cdc-mbim kmod-usb-net-cdc-ncm \
+	kmod-usb-net-cdc-subset kmod-usb-net-qmi-wwan \
+	kmod-usb-ohci kmod-usb-serial \
+	kmod-usb-serial-option kmod-usb-uhci kmod-usb2 \
+	kmod-usb3 wwan chat ppp umbim \
+	quectel_cm usb-modeswitch luci-app-multiwan \
+	luci-app-qos luci-proto-3g \
+	kmod-fs-ext4  kmod-fs-vfat kmod-fs-ntfs \
+	quectel_MHI quectel_cm_5G quectel_QMI_WWAN quectel_SRPD_PCIE \
+	luci-app-spdmodem luci-app-pcimodem luci-app-modem \
 # For easy usage
 DEFAULT_PACKAGES.tweak:=\
 	autocore \
